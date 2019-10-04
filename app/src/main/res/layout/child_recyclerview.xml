@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_id"
+    android:layout_width="110dp"
+    android:layout_height="125dp"
+    android:layout_margin="3dp"
+    android:clickable="true"
+    android:backgroundTint="#0d1132"
+    cardview:cardCornerRadius="4dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3sp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_child"
+            android:layout_width="110dp"
+            android:layout_height="95dp"
+            android:background="@color/darkblue"/>
+
+        <TextView
+            android:id="@+id/child_blessing1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_child"
+            android:layout_marginTop="4dp"
+            android:background="@color/darkblue"
+            android:text="Blessing"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/midyellow"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/child_blessing2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_child"
+            android:layout_marginTop="23dp"
+            android:background="@color/darkblue"
+            android:text="Blessing"
+            android:textColor="@color/midyellow"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/child_blessing3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_child"
+            android:layout_marginTop="41dp"
+            android:background="@color/darkblue"
+            android:text="Blessing"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/midyellow"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/child_blessing4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_child"
+            android:layout_marginTop="59dp"
+            android:background="@color/darkblue"
+            android:text="Blessing"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/midyellow"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/child_blessing5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_child"
+            android:layout_marginTop="77dp"
+            android:background="@color/darkblue"
+            android:text="Blessing"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/midyellow"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/child_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="@color/midyellow"
+            android:text="Description"
+            android:layout_below="@+id/image_child"
+            android:textColor="@color/darkblue"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
